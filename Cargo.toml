@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-ssd1680-rs = { git = "https://github.com/nponsard/ssd1680-rs", rev = "5f6e4f1e6283f4e4a205f682701e7ab58a59b233", optional = true }
+ssd1680-rs = { git = "https://github.com/nponsard/ssd1680-rs", rev = "a5489ab8ea203b63ee70e70ff21b82c802df0c37", optional = true }
 embedded-hal = "1.0.0"
 log = "0.4.26"
 

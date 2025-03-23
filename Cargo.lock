@@ -26,7 +26,7 @@ checksum = "30bde2b3dc3671ae49d8e2e9f044c7c005836e7a023ee57cffa25ab82764bb9e"
 [[package]]
 name = "ssd1680-rs"
 version = "0.1.0"
-source = "git+https://github.com/nponsard/ssd1680-rs?rev=5f6e4f1e6283f4e4a205f682701e7ab58a59b233#5f6e4f1e6283f4e4a205f682701e7ab58a59b233"
+source = "git+https://github.com/nponsard/ssd1680-rs?rev=a5489ab8ea203b63ee70e70ff21b82c802df0c37#a5489ab8ea203b63ee70e70ff21b82c802df0c37"
 dependencies = [
  "embedded-hal",
 ]
