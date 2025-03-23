@@ -1,0 +1,13 @@
+[package]
+name = "e-ink-graphics-library"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ssd1680-rs = { git = "https://github.com/nponsard/ssd1680-rs", rev = "5f6e4f1e6283f4e4a205f682701e7ab58a59b233", optional = true }
+embedded-hal = "1.0.0"
+log = "0.4.26"
+
+
+[features]
+ssd1680 = ["ssd1680-rs"]
